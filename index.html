@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <!-- <div class="centre-img">
+        <img src="images/ai-generated-8753783_1280.jpg" alt="">
+    </div> -->
+    <div class="container">
+        <img src="images/ai-generated-8753783_1280.jpg" onclick="openFullImg(this.src)">
+        <img src="images/goose-8740266_1280.jpg" onclick="openFullImg(this.src)">
+        <img src="images/lion-8743521_1280.jpg" onclick="openFullImg(this.src)">
+        <img src="images/sunset-110305_1280.jpg" onclick="openFullImg(this.src)">
+        <img src="images/boat-8614314_1280.jpg" onclick="openFullImg(this.src)">
+        <img src="images/man-8046025_1280.jpg" onclick="openFullImg(this.src)">
+        <img src="images/road-8587889_1280.jpg" onclick="openFullImg(this.src)">
+        <img src="images/seashells-1337565_1280.jpg" onclick="openFullImg(this.src)">
+        <!-- <img src="images/rock-3650793_1280.jpg"alt=""> -->
+        <img src="images/car-7569896_1280.jpg" onclick="openFullImg(this.src)">
+    </div>
+    <div class="pop-up"id="fullBox">
+        <img src="images/ai-generated-8753783_1280.jpg" id="fullImg">
+        <span onclick="closeFullImg()">&times;</span>
+    </div>
+   
+        <h2>Bikes Collection</h2>
+        <div class="bikes">
+        <div class="gallery">
+            <div class="image"><span><img src="images/bmw-1313343_1280.jpg" ></span></div>
+            <div class="image"><span><img src="images/superbike-930715_1280.jpg" ></span></div>
+            <div class="image"><span><img src="images/motorcycle-2077914_1280.jpg" ></span></div>
+            <div class="image"><span><img src="images/motorbike-8142649_1280.jpg" ></span></div>
+            <div class="image"><span><img src="images/motorbike-438464_1280.jpg" ></span></div>
+            <div class="image"><span><img src="images/extreme-4488462_1280.jpg" ></span></div>
+            <div class="image"><span><img src="images/snow-3066167_1280.jpg" ></span></div>
+            <div class="image"><span><img src="images/motorbike-407186_1280.jpg" ></span></div>
+            <div class="image"><span><img src="images/bike-1836962_1280.jpg" ></span></div>
+
+        </div>
+    </div>
+    <div class="cin"><h3>Cinematic Gallery</h3>
+    
+    <div class="galry-wrap">
+        <img src="images/back-arrow-removebg-preview.png"id="backbtn">
+        <div class="gallry">
+            <div>
+                <span><img src="images/ferris-wheel-8428738_1280.jpg"></span>
+                <span><img src="images/sunset-8424565_1280.jpg"></span>
+                <span><img src="images/forsythia-8595521_1280.jpg"></span>
+            </div>
+            <div>
+                <span><img src="images/sky-4576072_1280.jpg"></span>
+                <span><img src="images/girl-2987578_1280.jpg"></span>
+                <span><img src="images/zoo-8378189_1280.jpg"></span>
+            </div>
+        </div>
+        <img src="images/forward-removebg-preview.png"id="nextbtn">
+    </div>
+   
+<script src="script.js"></script>
+</body>
+</html>
